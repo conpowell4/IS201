@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    font-family: Helvetica, Arial, sans-serif;
+}
+h2 {
+    font-family: 'Brush Script MT', cursive;
+}
+.fancy {
+    color: whitesmoke;
+}
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4.5em;
+    text-align: center;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    border: solid 3px rgb(44, 97, 110)ck;
+    color: white;
+    background-color: rgb(44, 97, 110);
+}
+
+.menu li {
+    text-align: center;
+    padding: 5px 5px;
+    height: 50px;
+    flex-grow: 3;
+    list-style: none;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.mycontainer {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    font-size: 25px;
+}
+
+.bottom {
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: flex-end;
+    border-top: 1px solid;
+    border-bottom-right-radius: calc(0.3rem - 1px);
+    border-bottom-left-radius: calc(0.3rem - 1px);
+    color: white;
+    text-align: center;
+    background-color: rgb(44, 97, 110);
+    padding-bottom: 1rem;
+    font-size: large;
+}

@@ -1,0 +1,41 @@
+body {
+  background-image: url("../assets/images/Lake-Powell-DS-Reflection-Canyon-01-KCOT.jpeg")
+}
+
+.boat {
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 75px;
+}
+
+.face {
+  position: relative;
+  color:black;
+}
+    @media (min-width: 992px) {
+      .face .intro-img {
+        width: 75%;
+        float: right;
+      }
+      .face .intro-text {
+        left: 0;
+        width: 60%;
+        margin-top: 3rem;
+        position: absolute;
+      }
+      .face .intro-text .intro-button {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem;
+      }
+    }
+    @media (min-width: 1200px) {
+      .face .intro-text {
+        width: 45%;
+      }     
+    }
+
